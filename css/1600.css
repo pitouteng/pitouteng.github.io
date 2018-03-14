@@ -1,3 +1,4 @@
+
 * {
 	font-family: sans-serif;
 	background-color: #0e0f0f;
@@ -12,16 +13,6 @@
 
 }
 
-@media screen  and (max-width: 768px){
-	p{
-	text-align: center;
-	line-height: 30px;
-	vertical-align: center;
-	font-size: 16px;
-	width: 90%;
-	margin-left: auto;
-    margin-right: auto;
-}
 }
 
 head{
@@ -58,7 +49,7 @@ h2.head {
     margin-right: auto;
     line-height: 300px;
     text-align: center;
-	font-size: 50px;
+	font-size: 60px;
 	width: 10em;
 	background: transparent;
 }
@@ -66,7 +57,7 @@ h2.head {
 #firstPanel{
 	width: height:100vw;
     height:95vh;
-    background-image: url("mainPic.jpg");
+    background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -92,7 +83,7 @@ body{
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
-
+    width: 50%;
 
 
 }
@@ -118,7 +109,7 @@ img{
 
 #content1{
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	margin: 0;
 	padding: 0;
 	/*background-color: green;*/
@@ -128,7 +119,7 @@ img{
 #content2{
 	display: flex;
 
-	flex-wrap: wrap;
+
 	margin: 0;
 	padding: 0;
 	/*background-color: yellow;*/
@@ -136,11 +127,11 @@ img{
 }
 
 p{
-	text-align: center;
+	text-align: justify;
 	line-height: 30px;
 	vertical-align: center;
 	font-size: 16px;
-	width: 85%;
+	width: 60%;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -194,3 +185,7 @@ h1{
   background: #0e0f0f;
   color: white;
 }
+/* 
+h1{
+  color: teal;
+} */
