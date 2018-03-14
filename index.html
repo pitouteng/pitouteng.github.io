@@ -40,7 +40,7 @@
 		</div>
 		<div class="about">
 			<p class="topText">Pitou</p>
-			<p>Pitou Teng was born and raised by his beloved grandma and aunt in KampongCham, Cambodia. He moved to Massachusetts at the age of 13.
+			<p>LOWELL,&nbsp;&nbsp; <span id="date">Month.&nbsp; Day </span>&nbsp;&nbsp;&mdash;Pitou Teng was born and raised by his beloved grandma and aunt in KampongCham, Cambodia. He moved to Massachusetts at the age of 13.
 				He took robotics and programming courses at Lowell High School. His passion to be in STEM field continued
 				to grow during his time there. Now, he is attending University of Massachusetts Lowell majoring in Computer Science to pursue his
 				dream of becoming a software engineer.
@@ -72,7 +72,24 @@
 		</div>
 	</footer>
 
-
+	<script>
+		var today = new Date();
+		var month = new Array();
+		month[0] = "Jan";
+		month[1] = "Feb";
+		month[2] = "Mar";
+		month[3] = "Apr";
+		month[4] = "May";
+		month[5] = "June";
+		month[6] = "July";
+		month[7] = "Aug";
+		month[8] = "Sep";
+		month[9] = "Oct";
+		month[10] = "Nov";
+		month[11] = "Dec";
+		var n = month[today.getMonth()];
+		 document.getElementById("date").innerHTML= n+". &nbsp;" + today.getDate();
+	</script>
 
 </body>
 </html>
