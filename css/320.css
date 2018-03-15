@@ -60,11 +60,11 @@ h2.head {
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:  fixed;
     background-size: cover;
     color: white;
   	padding: 0px;
-
+		min-height: 500px;
 }
 
 /******************body******************/
@@ -75,6 +75,7 @@ body{
    	width: auto !important;  /* Firefox will set width as auto */
    	width:1000px;
    	background-color: transparent !important;
+		min-height: 500px;
 }
 
 .picture{

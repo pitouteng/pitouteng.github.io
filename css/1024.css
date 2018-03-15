@@ -63,6 +63,7 @@ h2.head {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+				min-height: 500px;
     color: white;
   	padding: 0px;
 
