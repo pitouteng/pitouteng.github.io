@@ -166,7 +166,7 @@ h1{
 }
 
 .fa {
-background: black;
+	background: black;
   padding: 5px;
   font-size: 30px;
   width: 50px;
@@ -179,11 +179,11 @@ background: black;
     opacity: 0.7;
 }
 .fa-instagram {
-  background: black;
+
   color: white;
 }
 .fa-linkedin {
-  background: black;
+
   color: white;
 }
 
