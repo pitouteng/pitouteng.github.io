@@ -62,7 +62,6 @@ h2.head {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-				min-height: 500px;
     color: white;
   	padding: 0px;
 
@@ -109,6 +108,7 @@ img{
 }
 
 #content1{
+	padding-top: 50px;
 	display: flex;
 
 	margin: 0;
@@ -162,12 +162,13 @@ p a{
 	padding: 100px;
 }
 h1{
+	font-size: 13px;
 	background-color: black;
 	text-align: left;
 }
 
 .fa {
-
+background: black;
   padding: 5px;
   font-size: 30px;
   width: 50px;

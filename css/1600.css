@@ -161,12 +161,13 @@ p a{
 	padding: 100px;
 }
 h1{
+	font-size: 13px;
 	background-color: black;
 	text-align: left;
 }
 
 .fa {
-
+background: black;
   padding: 5px;
   font-size: 30px;
   width: 50px;

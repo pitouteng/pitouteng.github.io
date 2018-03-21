@@ -81,7 +81,7 @@ body{
 }
 
 .picture{
-
+ padding-top:50px;
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
@@ -100,11 +100,12 @@ img{
 }
 .about{
 	margin: auto;
-	width: 50%;
+	width: 60%;
 	/*background-color: red;*/
 
 }
 .topText{
+	padding-top: 150px;
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -119,12 +120,10 @@ img{
 
 }
 #content2{
-
 	display: flex;
 
 	flex-wrap: wrap;
 	margin: 0;
-	padding-top: 150px;
 	/*background-color: yellow;*/
 	max-width: 100%;
 }
@@ -136,7 +135,7 @@ p{
 	font-size: 16px;
 	width: 85%;
 	margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 p a{
 	color: teal;
@@ -160,15 +159,16 @@ p a{
 .socialMedia{
 	background-color: black;
 	text-align: right;
-	padding: 70px;
+	padding: 60px;
 }
 h1{
+	font-size: 13px;
 	background-color: black;
 	text-align: left;
 }
 
 .fa {
-
+background: black;
   padding: 5px;
   font-size: 30px;
   width: 50px;
@@ -188,7 +188,3 @@ h1{
   background: black;
   color: white;
 }
-/*
-h1{
-  color: yellow;
-} */

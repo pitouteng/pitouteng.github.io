@@ -79,7 +79,7 @@ body{
 }
 
 .picture{
-
+ padding-top: 30px;
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
@@ -103,6 +103,7 @@ img{
 
 }
 .topText{
+	padding-top: 50px;
 	font-weight: bold;
 	font-size: 25px;
 }
@@ -117,7 +118,7 @@ img{
 
 }
 #content2{
-  padding-top: 150px;
+  padding-top: 100px;
   margin-top: 200px;
 	display: flex;
 
@@ -169,7 +170,7 @@ h1{
 }
 
 .fa {
-
+background: black;
   padding: 0px;
   font-size: 30px;
   width: 50px;
