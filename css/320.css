@@ -1,6 +1,6 @@
 
 * {
-	font-family: sans-serif;
+	font-family: 'Hind';
 	background-color: #0e0f0f;
 	color : #fcf8f2 ;
 	margin-top: 5px;
@@ -12,7 +12,8 @@
     vertical-align: baseline;
 
 }
-
+a{
+	text-decoration: none;
 }
 
 head{
@@ -143,8 +144,26 @@ p a{
 }
 
 
+/* get in touch  */
+.contact {
+	width: 90%;
+	margin-left: 5%;
+}
 
+h5{
+	text-transform: uppercase;
+	text-align: left;
+}
+.contactp{
+	text-align: left;
+}
+hr{
 
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(128, 128, 128);
+    margin: 1em 0;
+    padding: 0;
 }
 
 
