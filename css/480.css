@@ -104,6 +104,10 @@ img{
 	/*background-color: red;*/
 
 }
+#blink{
+	font-size: 20px;
+	color: teal;
+}
 .topText{
 	padding-top: 50px;
 	font-weight: bold;

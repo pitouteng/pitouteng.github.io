@@ -41,10 +41,14 @@
 		</div>
 		<div class="about">
 			<p class="topText">Pitou</p>
-			<p>LOWELL,&nbsp;&nbsp; <span id="date">Month.&nbsp; Day </span>&nbsp;&nbsp;&mdash;Pitou Teng was born and raised by his beloved grandma and aunt in KampongCham, Cambodia. He moved to Massachusetts at the age of 13.
+			<p>LOWELL,&nbsp;&nbsp; <span id="date">Month.&nbsp; Day </span>&nbsp;&nbsp;&mdash;
+				Pitou Teng was born and raised 
+				by his beloved grandma and aunt in KampongCham, 
+				Cambodia. He moved to Massachusetts at the age of 13.
 				He took robotics and programming courses at Lowell High School. His passion to be in STEM field continued
-				to grow during his time there. Now, he is attending University of Massachusetts Lowell majoring in Computer Science to pursue his
-				dream of becoming a software engineer.
+				to grow during his time there. Now, he is attending University 
+				of Massachusetts Lowell majoring in Computer Science to pursue his
+				dream of becoming a software engineer. Aft<span id="blink"> </span>. . .
 			</p>
 		</div>
 	</div>
@@ -52,14 +56,18 @@
 	<div id="content2">
 		<div class="about">
 			<p class="topText">Art</p>
-			<p>Photography means the world to him. From street photography to night photography, from portrait to landscape, from long exposure to freezing motion, Pitou love 
-				to challenge his creativity in the art of capturing light. Check out his <a href="https://www.instagram.com/pitou_teng/">Instagram</a> to see his work.
+			<p>Photography means the world to him. From street photography to night photography,
+				 from portrait to landscape, from long exposure to freezing motion, Pitou love 
+				to challenge his creativity in the art of capturing light. Check out 
+				his <a href="https://www.instagram.com/pitou_teng/">Instagram</a> to see his work.
 			</p>
 
 		</div>
 		<div class="picture">
-			<h4><img src="asset/art.jpg" width="1000" height="800">
-			</h4>
+			<div>
+				<img id="artPic" src="asset/art.jpg" width="1000" height="800" class="topimg">
+				<!-- <img src="asset/art2.jpg" width="1000" height="800" class="bottomimg"> -->
+			</div>
 		</div>
 	</div>
 
@@ -107,6 +115,30 @@
 		month[11] = "Dec";
 		var n = month[today.getMonth()];
 		 document.getElementById("date").innerHTML= n+". &nbsp;" + today.getDate();
+
+		var counterCursor = 0;
+
+		function blinkCursor () {
+		
+			if((counterCursor%2)==0){
+				document.getElementById("blink").innerHTML= "|";
+			}
+			else {
+				document.getElementById("blink").innerHTML= "&nbsp;";
+			}
+
+			counterCursor++;
+			timer.html(counter);
+			alert('counter is: ' + counter);
+		}
+		// function changeImage () {
+		// 	document.getElementById('artPic').src='asset/art2.jpg';
+		// 	document.getElementById('artPic').width='1000';
+		// 	document.getElementById('artPic').height='800';
+		// }
+
+		 setInterval(blinkCursor, 1000); // Time in milliseconds
+		// setInterval(changeImage, 5000);
 	</script>
 
 </body>
