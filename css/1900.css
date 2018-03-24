@@ -4,12 +4,6 @@
 	background-color: #1d2121;
 	color : #fcf8f2 ;
 	margin-top: 5px;
-	margin-right:
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
 
 }
 a{
@@ -58,10 +52,9 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:95vh;
+    height:98vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
-	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;

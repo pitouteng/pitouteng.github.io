@@ -4,13 +4,6 @@
 	background-color: #1d2121;
 	color : #fcf8f2 ;
 	margin-top: 5px;
-	margin-right:
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-
 }
 
 a{
@@ -21,30 +14,6 @@ head{
 	margin: 0px;
 	padding: 0px;
 }
-/*ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: sticky;
-	top: 0;
-}
-.nav{
-		display: inline;
-}
-li.alignLeft{
-	float: left;
-}
-li.alignRight{
-	float: right;
-}*/
-/*a.navBar{
-	display: block;
-	padding: 20px;
-	background-color: black;
-}
-a.navBar:hover {
-	background-color: #35bedd;
-} */
 
 h2.head {
 	margin-left: auto;
@@ -58,13 +27,12 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:95vh;
+    height:97vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
-	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-				min-height: 500px;
+	min-height: 500px;
     color: white;
   	padding: 0px;
 

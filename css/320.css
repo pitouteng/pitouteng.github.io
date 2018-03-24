@@ -4,12 +4,6 @@
 	background-color: #1d2121;
 	color : #fcf8f2 ;
 	margin-top: 5px;
-	margin-right:
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
 
 }
 a{
@@ -20,30 +14,7 @@ head{
 	margin: 0px;
 	padding: 0px;
 }
-/*ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: sticky;
-	top: 0;
-}
-.nav{
-		display: inline;
-}
-li.alignLeft{
-	float: left;
-}
-li.alignRight{
-	float: right;
-}*/
-/*a.navBar{
-	display: block;
-	padding: 20px;
-	background-color: black;
-}
-a.navBar:hover {
-	background-color: #35bedd;
-} */
+
 
 h2.head {
 	margin-left: auto;
@@ -57,10 +28,9 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:95vh;
+    height:96vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
-	background-repeat: no-repeat;
     background-attachment:  fixed;
     background-size: cover;
     color: white;
@@ -118,7 +88,6 @@ img{
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
-	/*background-color: green;*/
 	max-width: 100%;
 
 }
@@ -130,7 +99,6 @@ img{
 	flex-wrap: wrap;
 	margin: 0;
 	padding-top: 120px;
-	/*background-color: yellow;*/
 	max-width: 100%;
 }
 
