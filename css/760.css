@@ -68,8 +68,9 @@ img{
     min-height: 100%;
 }
 .about{
+	padding-top: 50px;
 	margin: auto;
-	width: 60%;
+	width: 70%;
 	/*background-color: red;*/
 
 }
@@ -78,7 +79,7 @@ img{
 	color: teal;
 }
 .topText{
-	padding-top: 150px;
+
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -100,6 +101,12 @@ img{
 	/*background-color: yellow;*/
 	max-width: 100%;
 }
+#mobileFirst{
+	order: 1;
+}
+#mobileSecond{
+	order: 2;
+}
 
 p{
 	text-align: justify;
@@ -118,8 +125,10 @@ p a{
 
 /* get in touch  */
 .contact {
+	padding-top: 60px;
 	width: 60%;
 	margin-left: 5%;
+	padding-bottom: 60px;
 }
 
 h5{

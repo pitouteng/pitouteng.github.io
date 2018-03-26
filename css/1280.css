@@ -71,8 +71,9 @@ img{
 			overflow: hidden;
   	height: auto;
   	flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+    
+	object-fit: cover;
+	height: 500px;
 }
 .about{
 	margin: auto;
@@ -129,6 +130,8 @@ p a{
 .contact {
 	width: 40%;
 	margin-left: 5%;
+	padding-top: 90px;
+	padding-bottom: 90px;
 }
 
 h5{

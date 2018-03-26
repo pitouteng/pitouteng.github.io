@@ -1,39 +1,35 @@
 
 * {
 	font-family: 'Hind';
-	background-color: #1d2121;
+	background-color:#1d2121;
 	color : #fcf8f2 ;
 	margin-top: 5px;
 }
-
 a{
 	text-decoration: none;
 }
-
 head{
 	margin: 0px;
 	padding: 0px;
 }
-
 
 h2.head {
 	margin-left: auto;
     margin-right: auto;
     line-height: 300px;
     text-align: center;
-	font-size: 50px;
+	font-size: 60px;
 	width: 10em;
 	background: transparent;
 }
 
 #firstPanel{
-	width: height: 100vw;
-    height: 97vh;
+	width: height:100vw;
+    height:97vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-				min-height: 500px;
     color: white;
   	padding: 0px;
 
@@ -51,26 +47,36 @@ body{
 }
 
 .picture{
- padding-top:50px;
+
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
-
-
-
+    width: 50%;
 }
+/* .topimg{
+	position:absolute;
+	left:40px;
+	top:10px;
+	z-index:-1;
+}
+.bottomimg{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+} */
 img{
 	max-width: 100%;
 		justify-content: center;
 			overflow: hidden;
   	height: auto;
-  	flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+
+	object-fit: cover;
+	height: 500px;
 }
 .about{
 	margin: auto;
-	width: 60%;
+	width: 50%;
 	/*background-color: red;*/
 
 }
@@ -79,14 +85,14 @@ img{
 	color: teal;
 }
 .topText{
-	padding-top: 150px;
 	font-weight: bold;
 	font-size: 30px;
 }
 
 #content1{
+	padding-top: 50px;
 	display: flex;
-	flex-wrap: wrap;
+
 	margin: 0;
 	padding: 0;
 	/*background-color: green;*/
@@ -94,10 +100,12 @@ img{
 
 }
 #content2{
+  padding-top: 150px;
 	display: flex;
 
-	flex-wrap: wrap;
+
 	margin: 0;
+	padding: 0;
 	/*background-color: yellow;*/
 	max-width: 100%;
 }
@@ -107,7 +115,7 @@ p{
 	line-height: 30px;
 	vertical-align: center;
 	font-size: 16px;
-	width: 85%;
+	width: 70%;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -116,10 +124,13 @@ p a{
 }
 
 
+
 /* get in touch  */
 .contact {
 	width: 40%;
-	margin-left: 10%;
+	margin-left: 5%;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 h5{
@@ -138,6 +149,7 @@ hr{
     padding: 0;
 }
 
+
 /*footer*/
 
 .footer {
@@ -150,7 +162,7 @@ hr{
 .socialMedia{
 	background-color: black;
 	text-align: right;
-	padding: 60px;
+	padding: 100px;
 }
 h1{
 	font-size: 13px;

@@ -67,9 +67,8 @@ img{
 		justify-content: center;
 			overflow: hidden;
   	height: auto;
-  	flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+	  object-fit: cover;
+	  min-height: 350px;
 }
 .about{
 	margin: auto;
@@ -103,13 +102,16 @@ img{
 
 	flex-wrap: wrap;
 	margin: 0;
-	padding-top: 120px;
 	/*background-color: yellow;*/
 	max-width: 100%;
 }
-
+#mobileFirst{
+	order: 1;
+}
+#mobileSecond{
+	order: 2;
+}
 p{
-	text-align: justify;
 	text-align: justify;
 	line-height: 30px;
 	vertical-align: center;
@@ -126,6 +128,8 @@ p a{
 .contact {
 	width: 90%;
 	margin-left: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 h5{
