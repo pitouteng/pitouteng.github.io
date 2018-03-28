@@ -8,12 +8,13 @@
 	<link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" media="screen and (max-width: 330px)" href="css/320.css" />
-  <link rel="stylesheet" media="screen and (min-width: 331px) and (max-width: 759px)" href="css/480.css" />
-  <link rel="stylesheet" media="screen and (min-width: 760px) and (max-width: 1023px)" href="css/760.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="css/1024.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1280px) and (max-width: 1599px)" href="css/1280.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1600px) and (max-width: 1899px)" href="css/1600.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1900px)" href="css/1900.css" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" media="screen and (min-width: 331px) and (max-width: 759px)" href="css/480.css" />
+	<link rel="stylesheet" media="screen and (min-width: 760px) and (max-width: 1023px)" href="css/760.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="css/1024.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1280px) and (max-width: 1599px)" href="css/1280.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1600px) and (max-width: 1899px)" href="css/1600.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1900px)" href="css/1900.css" />
 
 <!-- 	<div class="nav">
 		<ul>
@@ -33,6 +34,7 @@
 				Computer Science Major, University of Massachusetts Lowell
 			</h2> -->
 	</div>
+
 
 	<div id="content1">
 		<div class="picture">
@@ -71,8 +73,18 @@
 		</div>
 	</div>
 
-	<section>
+	<div id="tech">
+			<img id="blankLeft" class="slide blank w3-animate-right" src="asset/blank.png" >
+			<img id="html" class="slide w3-animate-right" src="asset/html.png" >
+			<img id="java" class="slide w3-animate-right" src="asset/java.png" >
+			<img id="cpp" class="slide cpp w3-animate-right" src="asset/cpp.png"  >
+			<img id="linux" class="slide w3-animate-right" src="asset/linux.png" >
+			<img id="python" class="slide w3-animate-right" src="asset/python.png" >
+			<img id="blankRight" class="slide blank w3-animate-right" src="asset/blank.png" style="max-width:20px;height:auto;" >
 			
+	</div>
+
+	<section>
 		<div class="contact">
 			<hr>
 			<h5>Get In Touch</h5>
@@ -80,7 +92,6 @@
 				For any business inquiries regarding Pitou, please email <a href="mailto:pitouteng@ymail.com">pitouteng@ymail.com</a>.
 			</p>
 			<hr>
-
 		</div>
 	</section>
 
@@ -99,6 +110,7 @@
 	</footer>
 
 	<script>
+		// date
 		var today = new Date();
 		var month = new Array();
 		month[0] = "Jan";
@@ -115,7 +127,7 @@
 		month[11] = "Dec";
 		var n = month[today.getMonth()];
 		 document.getElementById("date").innerHTML= n+". &nbsp;" + today.getDate();
-
+		// cursor
 		var counterCursor = 0;
 
 		function blinkCursor () {
@@ -128,17 +140,69 @@
 			}
 
 			counterCursor++;
-			timer.html(counter);
-			alert('counter is: ' + counter);
-		}
-		// function changeImage () {
-		// 	document.getElementById('artPic').src='asset/art2.jpg';
-		// 	document.getElementById('artPic').width='1000';
-		// 	document.getElementById('artPic').height='800';
-		// }
 
+		}
 		 setInterval(blinkCursor, 500); // Time in milliseconds
-		// setInterval(changeImage, 5000);
+
+		// slide
+		var myIndex = 1;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("slide");
+			// alert("slide length is: " + x.length);
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			
+			if (myIndex == 6) {myIndex = 1} 
+			// slide animation
+			// for (var j = 0; j < (x.length-1); j++) {
+			// 	x[j].classList.add('w3-animate-right');
+			// 	x[j].classList.remove('w3-animate-left');
+			// }
+			// for (var j = (x.length-1); j > myIndex; j--) {
+			// 	x[myIndex].classList.add('w3-animate-right');
+			// 	x[myIndex].classList.remove('w3-animate-left');
+			// }
+			// for (var j = 1; j < myIndex; j++) {
+			// 	x[myIndex].classList.add('w3-animate-left');
+			// 	x[myIndex].classList.remove('w3-animate-right');
+			// }
+			// for (var j = (x.length-1); j > myIndex; j--) {
+			// 	x[myIndex].classList.add('w3-animate-right');
+			// 	x[myIndex].classList.remove('w3-animate-left');
+			// }
+
+			// display
+			if(myIndex >= 2){
+				x[myIndex-1].style.display = "block";  
+				x[myIndex-1].style.height = "100px"; 
+			}
+			else {
+				x[0].style.display = "block"; 
+			}
+
+			x[myIndex].style.display = "block";  
+			x[myIndex].style.height = "200px"; 
+
+			if(myIndex < 6){
+				x[myIndex+1].style.display = "block";
+				x[myIndex+1].style.height = "100px";  
+			}
+			else {
+				x[6].style.display = "block"; 
+			}
+
+			myIndex++; 
+			setTimeout(carousel, 1000);
+		}
+			
+		 // Change image every 2 seconds
+		
+
+		
 	</script>
 
 </body>
