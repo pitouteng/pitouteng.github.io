@@ -158,14 +158,14 @@
 			
 			if (myIndex == 6) {myIndex = 1} 
 			// slide animation
-			// for (var j = 0; j < (x.length-1); j++) {
-			// 	x[j].classList.add('w3-animate-right');
-			// 	x[j].classList.remove('w3-animate-left');
-			// }
-			// for (var j = (x.length-1); j > myIndex; j--) {
-			// 	x[myIndex].classList.add('w3-animate-right');
-			// 	x[myIndex].classList.remove('w3-animate-left');
-			// }
+			for (var j = 0; j < (x.length-1); j++) {
+				x[j].classList.add('w3-animate-right');
+				x[j].classList.remove('w3-animate-left');
+			}
+			for (var j = (x.length-1); j > myIndex; j--) {
+				x[myIndex].classList.add('w3-animate-right');
+				x[myIndex].classList.remove('w3-animate-left');
+			}
 			// for (var j = 1; j < myIndex; j++) {
 			// 	x[myIndex].classList.add('w3-animate-left');
 			// 	x[myIndex].classList.remove('w3-animate-right');

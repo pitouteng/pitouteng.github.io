@@ -22,7 +22,7 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:97vh;
+    height:100vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
     background-attachment: fixed;
@@ -31,28 +31,7 @@ h2.head {
   	padding: 0px;
 
 }
- /* **********slide********** */
- #tech{
-	display: flex;
-	margin-top: 80px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 
-	background: #171a1a;
- }
-.slide {
-	opacity: .8;
-	display: none;
-	background: #171a1a;
-	max-width: auto;
-	height: 150px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.blank {
-	max-width: auto;
-	height: 20px;
-}
 
 
 
@@ -145,7 +124,28 @@ p a{
 	color: teal;
 }
 
+ /* **********slide********** */
+ #tech{
+	display: flex;
+	margin-top: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
+	background: #171a1a;
+ }
+.slide {
+	filter: opacity(70%);
+	display: none;
+	background: #171a1a;
+	max-width: auto;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blank {
+	max-width: auto;
+	height: 20px;
+}
 
 /* get in touch  */
 .contact {
