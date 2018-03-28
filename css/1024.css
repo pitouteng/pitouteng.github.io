@@ -59,6 +59,7 @@ h2.head {
 /******************body******************/
 
 body{
+	margin-top: -10px;
 	text-align: center;
 	min-width: 500px;
 	        /* Suppose you want minimum width of 1000px */
