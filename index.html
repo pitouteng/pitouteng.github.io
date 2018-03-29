@@ -15,7 +15,6 @@
 	<link rel="stylesheet" media="screen and (min-width: 1280px) and (max-width: 1599px)" href="css/1280.css" />
 	<link rel="stylesheet" media="screen and (min-width: 1600px) and (max-width: 1899px)" href="css/1600.css" />
 	<link rel="stylesheet" media="screen and (min-width: 1900px)" href="css/1900.css" />
-
 <!-- 	<div class="nav">
 		<ul>
 			<li class="alignLeft"><a class="navBar" href="index.html">Home</a></li>
@@ -67,7 +66,7 @@
 		</div>
 		<div id="mobileFirst" class="picture">
 			<div>
-				<img id="artPic" src="asset/art.jpg" width="1000" height="800" class="topimg">
+				<img id="artPic" src="asset/art.jpg" width="1000" height="800">
 				<!-- <img src="asset/art2.jpg" width="1000" height="800" class="bottomimg"> -->
 			</div>
 		</div>
@@ -78,9 +77,9 @@
 			<img id="html" class="slide w3-animate-right" src="asset/html.png" >
 			<img id="java" class="slide w3-animate-right" src="asset/java.png" >
 			<img id="cpp" class="slide cpp w3-animate-right" src="asset/cpp.png"  >
-			<img id="linux" class="slide w3-animate-right" src="asset/linux.png" >
-			<img id="python" class="slide w3-animate-right" src="asset/python.png" >
-			<img id="blankRight" class="slide blank w3-animate-right" src="asset/blank.png" style="max-width:20px;height:auto;" >
+			<img id="linux" class="slide w3-animate-right" src="asset/linux.png">
+			<img id="python" class="slide w3-animate-right" src="asset/python.png">
+			<img id="blankRight" class="slide blank w3-animate-right" src="asset/blank.png" >
 			
 	</div>
 
@@ -109,101 +108,7 @@
 		</div>
 	</footer>
 
-	<script>
-		// date
-		var today = new Date();
-		var month = new Array();
-		month[0] = "Jan";
-		month[1] = "Feb";
-		month[2] = "Mar";
-		month[3] = "Apr";
-		month[4] = "May";
-		month[5] = "June";
-		month[6] = "July";
-		month[7] = "Aug";
-		month[8] = "Sep";
-		month[9] = "Oct";
-		month[10] = "Nov";
-		month[11] = "Dec";
-		var n = month[today.getMonth()];
-		 document.getElementById("date").innerHTML= n+". &nbsp;" + today.getDate();
-		// cursor
-		var counterCursor = 0;
-
-		function blinkCursor () {
-		
-			if((counterCursor%2)==0){
-				document.getElementById("blink").innerHTML= "&nbsp;";
-			}
-			else {
-				document.getElementById("blink").innerHTML= "|";
-			}
-
-			counterCursor++;
-
-		}
-		 setInterval(blinkCursor, 500); // Time in milliseconds
-
-		// slide
-		var myIndex = 1;
-		carousel();
-
-		function carousel() {
-			var i;
-			var x = document.getElementsByClassName("slide");
-			// alert("slide length is: " + x.length);
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			}
-			
-			if (myIndex == 6) {myIndex = 1} 
-			// slide animation
-			for (var j = 0; j < (x.length-1); j++) {
-				x[j].classList.add('w3-animate-right');
-				x[j].classList.remove('w3-animate-left');
-			}
-			for (var j = (x.length-1); j > myIndex; j--) {
-				x[myIndex].classList.add('w3-animate-right');
-				x[myIndex].classList.remove('w3-animate-left');
-			}
-			// for (var j = 1; j < myIndex; j++) {
-			// 	x[myIndex].classList.add('w3-animate-left');
-			// 	x[myIndex].classList.remove('w3-animate-right');
-			// }
-			// for (var j = (x.length-1); j > myIndex; j--) {
-			// 	x[myIndex].classList.add('w3-animate-right');
-			// 	x[myIndex].classList.remove('w3-animate-left');
-			// }
-
-			// display
-			if(myIndex >= 2){
-				x[myIndex-1].style.display = "block";  
-				x[myIndex-1].style.height = "100px"; 
-			}
-			else {
-				x[0].style.display = "block"; 
-			}
-
-			x[myIndex].style.display = "block";  
-			x[myIndex].style.height = "200px"; 
-
-			if(myIndex < 6){
-				x[myIndex+1].style.display = "block";
-				x[myIndex+1].style.height = "100px";  
-			}
-			else {
-				x[6].style.display = "block"; 
-			}
-
-			myIndex++; 
-			setTimeout(carousel, 5000);
-		}
-			
-		 // Change image every 2 seconds
-		
-
-		
-	</script>
+	<script src="js/script.js"></script>
 
 </body>
 </html>

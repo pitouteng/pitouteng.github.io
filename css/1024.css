@@ -127,9 +127,9 @@ p a{
  /* **********slide********** */
  #tech{
 	display: flex;
-	margin-top: 80px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/* margin-top: 80px; */
+	padding-top: 80px;
+	padding-bottom: 80px;
 
 	background: #171a1a;
  }
@@ -138,13 +138,9 @@ p a{
 	display: none;
 	background: #171a1a;
 	max-width: auto;
-	height: 150px;
+	height: 120px;
 	margin-left: auto;
 	margin-right: auto;
-}
-.blank {
-	max-width: auto;
-	height: 20px;
 }
 
 /* get in touch  */

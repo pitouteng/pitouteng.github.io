@@ -3,17 +3,13 @@
 	font-family: 'Hind';
 	background-color: #1d2121;
 	color : #fcf8f2 ;
-	margin-top: 5px;
+
 }
 
 a{
 	text-decoration: none;
 }
 
-head{
-	margin: 0px;
-	padding: 0px;
-}
 
 h2.head {
 	margin-left: auto;
@@ -27,7 +23,7 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:97vh;
+    height:100vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
     background-attachment: fixed;
@@ -41,6 +37,7 @@ h2.head {
 /******************body******************/
 
 body{
+	margin-top: -10px;
 	text-align: center;
 	min-width: 500px;
 	        /* Suppose you want minimum width of 1000px */
@@ -50,7 +47,6 @@ body{
 }
 
 .picture{
- padding-top:50px;
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
@@ -71,6 +67,7 @@ img{
 	padding-top: 50px;
 	margin: auto;
 	width: 70%;
+	padding-bottom: 100px;
 	/*background-color: red;*/
 
 }
@@ -121,7 +118,24 @@ p a{
 	color: teal;
 }
 
+ /* **********slide********** */
+ #tech{
+	display: flex;
+	/* margin-top: 80px; */
+	padding-top: 80px;
+	padding-bottom: 80px;
 
+	background: #171a1a;
+ }
+.slide {
+	filter: opacity(70%);
+	display: none;
+	background: #171a1a;
+	max-width: auto;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* get in touch  */
 .contact {

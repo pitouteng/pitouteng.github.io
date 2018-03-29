@@ -3,17 +3,11 @@
 	font-family: 'Hind';
 	background-color: #1d2121;
 	color : #fcf8f2 ;
-	margin-top: 5px;
 
 }
 
 a{
 	text-decoration: none;
-}
-
-head{
-	margin: 0px;
-	padding: 0px;
 }
 
 
@@ -29,7 +23,7 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:96.5vh;
+    height:100vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
 
@@ -43,6 +37,7 @@ h2.head {
 /******************body******************/
 
 body{
+	margin-top: -10px;
 	text-align: center;
 	        /* Suppose you want minimum width of 1000px */
    	width: auto !important;  /* Firefox will set width as auto */
@@ -51,7 +46,6 @@ body{
 }
 
 .picture{
-	padding-top: 50px;
 	/*background-color: blue;*/
 	margin-left: auto;
     margin-right: auto;
@@ -74,7 +68,7 @@ img{
 	margin: auto;
 	width: 95%;
 	/*background-color: red;*/
-
+	padding-bottom: 100px;
 }
 #blink{
 	font-size: 20px;
@@ -85,6 +79,7 @@ img{
 	font-weight: bold;
 	font-size: 30px;
 }
+
 
 #content1{
 	display: flex;
@@ -123,7 +118,26 @@ p{
 p a{
 	color: teal;
 }
+ /* **********slide********** */
+ #tech{
+	display: flex;
+	/* margin-top: 80px; */
+	padding-top: 80px;
+	padding-bottom: 80px;
 
+	background: #171a1a;
+ }
+.slide {
+
+	filter: opacity(70%);
+	display: block;
+	background: #171a1a;	
+	max-width: 20%;
+	height: 50px;
+	zoom: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* get in touch  */
 .contact {
 	width: 90%;
