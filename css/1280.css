@@ -3,14 +3,9 @@
 	font-family: 'Hind';
 	background-color:#1d2121;
 	color : #fcf8f2 ;
-	margin-top: 5px;
 }
 a{
 	text-decoration: none;
-}
-head{
-	margin: 0px;
-	padding: 0px;
 }
 
 h2.head {
@@ -25,7 +20,7 @@ h2.head {
 
 #firstPanel{
 	width: height:100vw;
-    height:97vh;
+    height:100vh;
     background-image: url("../asset/mainPic.jpg");
 	background-position: center center;
     background-attachment: fixed;
@@ -38,6 +33,7 @@ h2.head {
 /******************body******************/
 
 body{
+	margin-top: -10px;
 	text-align: center;
 	min-width: 500px;
 	        /* Suppose you want minimum width of 1000px */
@@ -123,7 +119,66 @@ p{
 p a{
 	color: teal;
 }
+ /* **********slide********** */
+ div.scrollSlide {
+    background-color: #171a1a;
+    overflow: auto;
+    white-space: nowrap;
+}
 
+div.scrollSlide .slide {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 50px;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+/* // test */
+
+.slideshow {
+	position: relative;
+	overflow: hidden;
+  }
+  .images {
+	background: url(asset/html.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 300%;
+	animation: slideshow 10s linear infinite;
+  }
+  @keyframes slideshow {
+	0%    { left: 0; }
+	100%  { left: -200%; }
+  }
+
+
+
+
+
+
+
+
+ /* #tech{
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	background: #171a1a;
+ }
+.slide {
+	filter: opacity(70%);
+	display: none;
+	background: #171a1a;
+	max-width: auto;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+} */
 
 
 /* get in touch  */

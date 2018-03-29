@@ -173,11 +173,14 @@ hr{
 	padding: 40px;
 }
 h1{
-	font-size: 10px;
+	color: white;
 	background-color: black;
 	text-align: center;
 	padding-bottom: 20px;
   }
+.byMe{
+	font-size: 10px;
+}
 
 .fa {
 	background: black;
