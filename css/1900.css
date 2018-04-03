@@ -6,15 +6,7 @@
 	margin-top: 5px;
 
 }
-a{
-	text-decoration: none;
-}
 
-
-head{
-	margin: 0px;
-	padding: 0px;
-}
 /*ul{
 	list-style-type: none;
 	margin: 0;
@@ -40,13 +32,28 @@ a.navBar:hover {
 	background-color: #35bedd;
 } */
 
-h2.head {
-	margin-left: auto;
-    margin-right: auto;
-    line-height: 300px;
-    text-align: center;
+head{
+	margin: 0px;
+	padding: 0px;
+}
+
+#title{
+	display: inline-block;
+	background: transparent;
+
+	margin: auto;
+
+	padding-top: 15%;
+
+}
+.head {
+	font-weight: bold;
+    /* line-height: 300px; */
 	font-size: 70px;
-	width: 10em;
+	/* width: 10em; */
+	background: transparent;
+}
+.quote {
 	background: transparent;
 }
 

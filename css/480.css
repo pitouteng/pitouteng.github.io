@@ -16,14 +16,23 @@ head{
 	padding: 0px;
 }
 
+#title{
+	display: inline-block;
+	background: transparent;
 
-h2.head {
-	margin-left: auto;
-    margin-right: auto;
-    line-height: 300px;
-    text-align: center;
-	font-size: 35px;
-	width: 10em;
+	margin: auto;
+
+	padding-top: 20%;
+
+}
+.head {
+	font-weight: bold;
+    /* line-height: 300px; */
+	font-size: 40px;
+	/* width: 10em; */
+	background: transparent;
+}
+.quote {
 	background: transparent;
 }
 
