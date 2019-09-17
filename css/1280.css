@@ -7,6 +7,8 @@
 }
 a{
 	text-decoration: none;
+	color: teal;
+
 }
 head{
 	margin: 0px;
@@ -81,7 +83,7 @@ img{
 			overflow: hidden;
   	height: auto;
   	flex-shrink: 0;
-    
+
 	object-fit: cover;
 	height: 500px;
 }
@@ -130,10 +132,6 @@ p{
 	margin-left: auto;
     margin-right: auto;
 }
-p a{
-	color: teal;
-}
-
 
 
 /* get in touch  */
@@ -160,7 +158,12 @@ hr{
     padding: 0;
 }
 
-
+#announce{
+	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 /*footer*/
 
 .footer {

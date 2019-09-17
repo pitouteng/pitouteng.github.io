@@ -7,6 +7,7 @@
 }
 a{
 	text-decoration: none;
+	color: teal;
 }
 head{
 	margin: 0px;
@@ -119,9 +120,7 @@ p{
 	margin-left: auto;
     margin-right: auto;
 }
-p a{
-	color: teal;
-}
+
 
 
 /* get in touch  */
@@ -147,6 +146,13 @@ hr{
     border-top: 1px solid rgb(128, 128, 128);
     margin: 1em 0;
     padding: 0;
+}
+
+#announce{
+	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 

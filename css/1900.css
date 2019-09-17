@@ -7,34 +7,13 @@
 
 }
 
-/*ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: sticky;
-	top: 0;
-}
-.nav{
-		display: inline;
-}
-li.alignLeft{
-	float: left;
-}
-li.alignRight{
-	float: right;
-}*/
-/*a.navBar{
-	display: block;
-	padding: 20px;
-	background-color: black;
-}
-a.navBar:hover {
-	background-color: #35bedd;
-} */
-
 head{
 	margin: 0px;
 	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: teal;
 }
 
 #title{
@@ -141,9 +120,6 @@ p{
 	margin-left: auto;
     margin-right: auto;
 }
-p a{
-	color: teal;
-}
 /* get in touch  */
 .contact {
 	width: 30%;
@@ -167,7 +143,12 @@ hr{
     margin: 1em 0;
     padding: 0;
 }
-
+#announce{
+	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 
 /*footer*/
 
